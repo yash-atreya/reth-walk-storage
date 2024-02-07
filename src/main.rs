@@ -21,7 +21,7 @@ fn main() -> Result<(), eyre::Report> {
 
     let mut i: u64 = 0;
     let start_t = std::time::Instant::now();
-    while let Some(it) = walk_slots.next() {
+    while let Some(_it) = walk_slots.next() {
         // let (key, value) = it?;
         i += 1;
     }
