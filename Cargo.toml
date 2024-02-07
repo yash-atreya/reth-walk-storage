@@ -1,0 +1,11 @@
+[package]
+name = "reth-walk-storage"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+alloy-primitives = "0.6.2"
+eyre = "0.6.12"
+reth-db = { git = "https://github.com/paradigmxyz/reth", package = "reth-db" }
